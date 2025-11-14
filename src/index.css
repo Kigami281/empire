@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000;
+  transition: color 0.3s;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #555;
+}

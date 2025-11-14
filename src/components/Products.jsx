@@ -1,0 +1,94 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+
+import marble1 from "../assets/products/marble1.jpeg";
+import marble2 from "../assets/products/marble2.jpeg";
+import marble3 from "../assets/products/marble3.jpeg";
+import marble4 from "../assets/products/marble4.jpeg";
+import marble5 from "../assets/products/marble5.jpeg";
+import marble6 from "../assets/products/marble6.jpeg";
+import marble7 from "../assets/products/marble7.jpeg";
+import marble8 from "../assets/products/marble8.jpeg";
+import marble9 from "../assets/products/marble9.jpeg";
+import marble10 from "../assets/products/marble10.jpeg";
+import marble11 from "../assets/products/marble11.jpeg";
+import marble12 from "../assets/products/marble12.jpeg";
+import marble13 from "../assets/products/marble13.jpeg";
+import marble14 from "../assets/products/marble14.jpeg";
+import marble15 from "../assets/products/marble15.jpeg";
+import marble16 from "../assets/products/marble16.jpeg";
+import marble17 from "../assets/products/marble17.jpeg";
+import marble18 from "../assets/products/marble18.jpeg";
+import marble19 from "../assets/products/marble19.jpeg";
+import marble20 from "../assets/products/marble20.jpeg";
+
+const products = [
+  { id: 1, name: "Continental Carrara", price: "$50-90/p-sq.m", img: marble1 },
+  { id: 2, name: "Dark Emperador+Calacatta Gold", price: "$180-250/p-sq.m", img: marble2 },
+  { id: 3, name: "Calacatta Oro (Gold Vein)", price: "$240-350/p-sq.m", img: marble3 },
+  { id: 4, name: "Cream Onyx+Blue Onyx", price: "$350-500/p-sq.m", img: marble4 },
+  { id: 5, name: "Calacatta Blue and Gold", price: "$450-700/p-sq.m", img: marble5 },
+  { id: 6, name: "Pietra Grey+Silver Cloud+Carrar Silver", price: "$180-320/p-sq.m", img: marble6 },
+  { id: 7, name: "Blue Onyx", price: "$350-500/p-sq.m", img: marble7 },
+  { id: 8, name: "Statuario Oro", price: "$300-420/p-sq.m", img: marble8 },
+  { id: 9, name: "Ash Grey+Cream Beige+Silver Shadow", price: "$130-450/p-sq.m", img: marble9 },
+  { id: 10, name: "Brown Cloud Onyx", price: "$280-500/p-sq.m", img: marble10 },
+  { id: 11, name: "Emper Ador Light", price: "$85-110/p-sq.m", img: marble11 },
+  { id: 12, name: "Silver Wave", price: "$100-130/p-sq.m", img: marble12 },
+  { id: 13, name: "Colonial White", price: "$85-110/p-sq.m", img: marble13 },
+  { id: 14, name: "Sunsill Pet", price: "$90-130/p-sq.m", img: marble14 },
+  { id: 15, name: "Natural Grenite", price: "$65-90/p-sq.m", img: marble15 },
+  { id: 16, name: "Blue Quartzite", price: "$400-600", img: marble16 },
+  { id: 17, name: "Bookmarched Calacatta", price: "$450-700", img: marble17 },
+  { id: 18, name: "Golden Onyx", price: "$150-350/p-sq.m", img: marble18 },
+  { id: 19, name: "Honey Onyx", price: "$110-370/p-sq.m", img: marble19 },
+  { id: 20, name: "Blue Savoy+Calacatta Gold+Arabescato", price: "$60-180/p-sq.m", img: marble20 },
+];
+
+const Products = () => {
+  return (
+    <section className="bg-white text-gray-800 py-24 px-6 md:px-12 lg:px-24">
+      <div className="text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          Our Marble Collection
+        </h2>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          Premium quality marble selections to elevate your interior and architectural design.
+        </p>
+      </div>
+
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={20}
+        pagination={{ clickable: true }}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        {products.map((product) => (
+          <SwiperSlide key={product.id}>
+            <div className="bg-gray-50 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
+              <img
+                src={product.img}
+                alt={product.name}
+                className="h-56 w-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+              <div className="p-6 text-center">
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">{product.name}</h3>
+                <p className="text-green-600 font-medium">{product.price}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </section>
+  );
+};
+
+export default Products;
