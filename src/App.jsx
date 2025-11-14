@@ -2,7 +2,7 @@ import React from "react";
 import tailwindConfig from "../tailwind.config";
 import "./index.css"
 import Hero from "./components/Hero";
-import Features from "./components/features"; 
+import Features from "./components/Features"; 
 import Cards from "./components/Cards";
 import Marbles from "./components/Marbles";
 import Products from "./components/Products";
