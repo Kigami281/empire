@@ -1,16 +1,189 @@
-# React + Vite
+Oyk/Mabs Marble Designs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
 
-Currently, two official plugins are available:
+🔗 https://marbles-chi.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Overview
 
-## React Compiler
+Oyk/Mabs Marble Designs is a modern, responsive web platform built with React, Vite, and Tailwind CSS, crafted to showcase premium marble products and interior-design services.
+The project emphasizes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Elegant and professional interface
 
-## Expanding the ESLint configuration
+Reusable, scalable component architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+High-quality imagery
+
+Smooth responsiveness across all devices
+
+Strong visual identity and branding
+
+Brand Identity
+🎨 Color System
+Role Color HEX
+Primary Gold #FACC15
+Secondary White #FFFFFF
+Accent Black #000000
+
+Rationale:
+Gold and white reflect luxury and purity, while black adds depth and contrast.
+
+🔤 Typography
+Category Style Reasoning
+Headings Bold, wide tracking Strong premium branding
+Body Text Neutral gray High readability across devices
+Design Decisions
+
+Mobile-first design approach
+
+Hero section with strong visual hierarchy
+
+Reusable yellow CTA buttons
+
+Soft glass-effect cards
+
+Tailored breakpoints for real device sizes
+
+Clean spacing and consistent layout rules
+
+Component Architecture
+
+All components are located in:
+
+src/components/
+
+Core Components
+
+Header.jsx
+
+Hero.jsx
+
+Marbles.jsx
+
+Products.jsx
+
+Features.jsx
+
+Testimonial.jsx
+
+Newsletter.jsx
+
+Footer.jsx
+
+Button.jsx
+
+Cards.jsx
+
+Reusability Strategy
+
+Buttons, cards, and layout containers are built as reusable components to ensure long-term scalability and consistent styling.
+
+Performance Optimizations
+
+Compressed and optimized images
+
+Removed unused imports and dead code
+
+Lazy-loaded heavy UI sections
+
+Tailwind JIT generates minimal CSS
+
+Cached assets for faster reloads
+
+Image Credits
+
+(Add proper attribution after confirming your sources)
+
+Marble imagery —
+
+Background assets —
+
+Installation & Setup
+
+# Clone the repository
+
+git clone <your-repo-url>
+
+# Enter project folder
+
+cd ps
+
+# Install dependencies
+
+npm install
+
+# Start development server
+
+npm run dev
+
+Technologies Used
+Technology Version Purpose
+React 18+ UI library
+Vite Latest Build tool / bundler
+TailwindCSS 3+ Styling
+ESLint Latest Linting / code quality
+JavaScript ES6+ App logic
+Challenges & Solutions
+
+1. Case-Sensitivity Import Errors
+
+Windows created mismatching lowercase/uppercase import paths.
+✔ Solution: Removed incorrect files + reset Vite cache.
+
+2. Mobile Navigation Overlap
+
+Navigation overlapped on small devices.
+✔ Solution: Adjusted padding, flex configuration, and breakpoints.
+
+3. Hero Image Distortion
+
+Background image stretched incorrectly.
+✔ Solution: Replaced with HD image + Tailwind background utilities.
+
+Future Improvements
+
+Framer Motion animations
+
+Backend API integration
+
+User authentication
+
+Dark Mode theme
+
+Deployment on Vercel/Netlify
+
+Functional newsletter backend
+
+Screenshots
+
+(Add actual screenshots inside /screenshots folder once ready)
+
+Recommended structure:
+
+/screenshots
+hero-lg.png
+marbles-md.png
+features-sm.png
+lighthouse-report.png
+
+License
+
+This project is for educational and portfolio purposes.
+Attribution is appreciated when reused.
+
+---
+
+# 📸 Screenshots
+
+### 🖥️ Desktop View
+
+![Desktop Screenshot](./screenshots/hero-desktop.png)
+
+### 📱 Mobile View
+
+![Mobile Screenshot](./screenshots/hero-mobile.png)
+
+### 💻 Tablet View
+
+![Tablet Screenshot](./screenshots/hero-tablet.png)
