@@ -10,8 +10,8 @@ const Header = () => {
                        flex justify-between items-center 
                        px-6 py-4 md:px-12 md:py-6">
 
-      <h1 className="text-2xl md:text-3xl font-extrabold tracking-wide text-yellow-400">
-        Oyk<span className="text-white">/</span>Mabs
+      <h1 className="text-2xl md:text-3xl font-extrabold tracking-wide text-cyan-400">
+        Ultima<span className="text-white">/</span>Empire
       </h1>
 
       <div className="hidden md:flex">

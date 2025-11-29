@@ -18,20 +18,20 @@ const Hero = () => {
       
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 md:px-12 lg:px-24 mt-24">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white mb-6 drop-shadow-lg max-w-3xl">
-          Creative Marble Design for Elegant Spaces
+          Home Of Definite Security
         </h1>
         <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
-          We craft premium marble interiors that redefine modern living.
+          We offer premium services to our clients
         </p>
-        <Button label="Shop Now" />    
+        <Button label="Explore your options now" />    
       </div>
  
-      <div className="relative z-10 bg-white/10 backdrop-blur-md border-t border-white/20 flex flex-wrap justify-center md:justify-evenly items-center py-8 mt-12 mx-6 rounded-[20px] mb-4 shadow-lg">
+      <div className="relative z-10 bg-white/10 border-t border-white/20 flex flex-wrap justify-center md:justify-evenly items-center py-8 mt-12 mx-6 rounded-[20px] mb-4 shadow-lg">
         {[
-          { num: "7+", label: "Years Experience" },
-          { num: "3", label: "Open In The Country" },
-          { num: "10k+", label: "Marble Projects" },
-          { num: "260+", label: "Unique Designs" },
+          { num: "20+", label: "Branches Globally" },
+          { num: "50+", label: "Products Available" },
+          { num: "27+ years", label: "Of Prosperity" },
+          { num: "790+", label: "Satisfied Clients" },
         ].map((item, idx) => (
           <div
             key={idx}

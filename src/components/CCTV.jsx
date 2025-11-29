@@ -1,7 +1,7 @@
 import React from "react";
-import MarblesImage from "../assets/marbles/Mewar.jpeg"; 
+import CCTVImage from "../assets/CCTV/CCTV.jpg"; 
 
-const Marbles = () => {
+const CCTV = () => {
   return (
     <section className="bg-gray-50 text-gray-900 py-20">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
@@ -9,13 +9,12 @@ const Marbles = () => {
           
           <div className="space-y-6">
             <h2 className="text-3xl md:text-5xl font-bold leading-snug">
-              Elevate Your Space <br /> with World-Class Marble
+              Experience Modern Technology at Work With Our Security Features
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed">
-              Experience the timeless beauty of marble — handpicked from 
-              the world’s finest quarries. Each slab tells a story of nature’s 
-              artistry, crafted to perfection for homes, hotels, and commercial masterpieces.
+              Our company manufatures and uses custom made gagdets made from
+              highly skilled, experienced and competent people
             </p>
             <div className="space-y-5">
             
@@ -33,7 +32,8 @@ const Marbles = () => {
                   </svg>
                 </div>
                 <p className="text-gray-600">
-                  Imported and locally sourced collections with global quality standards.
+                  CCTV cmaeras that have a clear range of up to 50M complete with microphones
+                  to capture vocals or noise at a nearer distance
                 </p>
               </div>
 
@@ -51,7 +51,8 @@ const Marbles = () => {
                   </svg>
                 </div>
                 <p className="text-gray-600">
-                  Available in a wide range of colors, veins, and finishes — tailored to your design vision.
+                 Mini-cameras that cn be fitted to tight places for harder identification by 
+                 intruders
                 </p>
               </div>
 
@@ -69,7 +70,7 @@ const Marbles = () => {
                   </svg>
                 </div>
                 <p className="text-gray-600">
-                  Expertly polished and sealed to ensure long-lasting beauty and strength.
+                  Infrared light to assist in high alert systems to sense intruders on contact
                 </p>
               </div>
             </div>
@@ -77,7 +78,7 @@ const Marbles = () => {
 
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
-              src={MarblesImage}
+              src={CCTVImage}
               alt="Luxury marble collection"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               loading="lazy"/>
@@ -90,4 +91,4 @@ const Marbles = () => {
   );
 };
 
-export default Marbles;
+export default CCTV;

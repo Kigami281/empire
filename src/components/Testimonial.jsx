@@ -5,25 +5,25 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-import person1 from "../assets/testimonials/person1.jpeg";
-import room1 from "../assets/testimonials/room1.jpeg";
-import person2 from "../assets/testimonials/person2.jpeg";
-import room2 from "../assets/testimonials/room2.jpeg";
+import person1 from "../assets/testimonials/person1.jpg";
+import room1 from "../assets/testimonials/room1.jpg";
+import person2 from "../assets/testimonials/person2.jpg";
+import room2 from "../assets/testimonials/room2.jpg";
 
 const testimonials = [
   {
-    name: "Sandra Smith",
-    title: "Manager of Kwetu Nairobi",
+    name: "Michael Angelo",
+    title: "Manager of Serona Hotel",
     quote:
-      "They have a perfect touch for making something so professional, interesting, and useful for a lot of people.",
+      "They offer top tier security and give that feeling safe vibe",
     personImg: person1,
     roomImg: room1,
   },
   {
-    name: "samuel jackson",
-    title: "Interior Designer",
+    name: "Reina Miyuki",
+    title: "Home oWNER",
     quote:
-      "Working with them was effortless. The results were beyond my expectations — simply beautiful!",
+      "There security systems put me at ease since I usually not stay at home often",
     personImg: person2,
     roomImg: room2,
   },

@@ -4,7 +4,7 @@ import "./index.css"
 import Hero from "./components/Hero";
 import Features from "./components/Features"; 
 import Cards from "./components/Cards";
-import Marbles from "./components/Marbles";
+import CCTV from "./components/CCTV";
 import Products from "./components/Products";
 import Testimonial from "./components/Testimonial";
 import Newsletter from "./components/Newsletter";
@@ -19,7 +19,7 @@ const App = () => {
       <Hero />
       <Features />
       <Cards />
-      <Marbles />
+      <CCTV />
       <Products />
       <Testimonial />
       <Newsletter />

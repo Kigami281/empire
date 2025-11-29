@@ -10,10 +10,10 @@ const Navigation = ({ mobile }) => {
             : "flex space-x-8 text-white"
         }
       >
-        <li className="hover:text-yellow-400 cursor-pointer">Home</li>
-        <li className="hover:text-yellow-400 cursor-pointer">About</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Services</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Contact</li>
+        <li className="hover:text-purple-400 cursor-pointer">Home</li>
+        <li className="hover:text-purple-400 cursor-pointer">About</li>
+        <li className="hover:text-purple-400 cursor-pointer">Services</li>
+        <li className="hover:text-purple-400 cursor-pointer">Contact</li>
       </ul>
     </nav>
   );
