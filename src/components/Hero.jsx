@@ -16,7 +16,7 @@ const Hero = () => {
 
       <Header />
       
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 md:px-12 lg:px-24 mt-24">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 md:px-12 lg:px-24 mt-24 min-h-screen">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white mb-6 drop-shadow-lg max-w-3xl">
           Home Of Definite Security
         </h1>

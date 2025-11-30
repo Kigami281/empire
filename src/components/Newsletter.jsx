@@ -1,11 +1,10 @@
 import React from "react";
-import MarbleBg from "../assets/marbles2/marblebg.jpeg"; 
-
+import background from "../assets/Background/background.jpg";
 const Newsletter = () => {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat py-20"
-      style={{ backgroundImage: `url(${MarbleBg})` }}
+      style={{ backgroundImage: `url(${background})` }}
     >
    
       <div className="absolute inset-0 bg-white/70 backdrop-blur-sm"></div>
@@ -31,7 +30,7 @@ const Newsletter = () => {
           />
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-r-full transition-all duration-300"
+            className="bg-purple-500 hover:bg-purple-600 text-white font-semibold px-6 py-3 rounded-r-full transition-all duration-300"
           >
             Subscribe
           </button>
