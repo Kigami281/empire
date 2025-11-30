@@ -5,11 +5,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Amber from "../assets/store/Amber.jpeg";
-import Beige from "../assets/store/Beige.jpeg";
-import Black from "../assets/store/BlackGold.jpeg";
-import Marble from "../assets/store/BlackMarble.jpeg";
-import Marquina from "../assets/store/BlackMarquina.jpeg";
+import picture1 from "../assets/store/picture1.jpeg";
+import picture2 from "../assets/store/picture2.jpeg";
+import picture3 from "../assets/store/picture3.jpeg";
+import picture4 from "../assets/store/picture4.jpeg";
+import picture5 from "../assets/store/picture5.jpeg";
 import Mirage from "../assets/store/BlackMirage.jpeg";
 import Onyx from "../assets/store/BlueOnyx.jpeg";
 import Calacatta from "../assets/store/CalacattaGold.jpeg";
@@ -19,17 +19,12 @@ import Panda from "../assets/store/PandaWhite.jpeg";
 
 const Newitems = () => {
   const products = [
-    { id: 1, name: "Amber Storm", image: Amber },
-    { id: 2, name: "Beige Calacatta", image: Beige },
-    { id: 3, name: "Black Gold", image: Black },
-    { id: 4, name: "Black Marble Metallic", image: Marble },
-    { id: 5, name: "Black Marquina", image: Marquina },
-    { id: 6, name: "Black Mirage", image: Mirage },
-    { id: 7, name: "Blue Onyx Flow", image: Onyx },
-    { id: 8, name: "Calacatta Gold", image: Calacatta },
-    { id: 9, name: "Calacatta Oro", image: Oro },
-    { id: 10, name: "Fusion Onyx", image: Fusion },
-    { id: 11, name: "Panda White", image: Panda },
+    { id: 1, name: "Pen Camera", image: picture1 },
+    { id: 2, name: "Andvanced Walkie Talkie", image: picture2 },
+    { id: 3, name: "Visual Camera", image: picture3 },
+    { id: 4, name: "Camera Detector", image: picture4 },
+    { id: 5, name: "Black Marquina", image: picture5 },
+    
   ];
 
   return (
@@ -38,9 +33,9 @@ const Newitems = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
       
           <div className="md:col-span-2 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold">New In Store Now</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Some Our Advanced Tech</h2>
             <p className="text-gray-600">
-              Get the latest items immediately with promo prices.
+              These are some of our custom made technology 
             </p>
             <a
               href="#"
