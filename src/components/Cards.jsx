@@ -8,14 +8,18 @@ import "swiper/css/pagination";
 import picture1 from "../assets/store/picture1.jpg";
 import picture2 from "../assets/store/picture2.jpg";
 import picture3 from "../assets/store/picture3.jpg";
+import picture4 from "../assets/store/picture4.jpg";
 import picture5 from "../assets/store/picture5.jpg";
+import picture6 from "../assets/store/picture6.jpg";
 
 const Newitems = () => {
   const products = [
     { id: 1, name: "Pen Camera", image: picture1 },
     { id: 2, name: "Andvanced Walkie Talkie", image: picture2 },
     { id: 3, name: "Visual Camera", image: picture3 },
-    { id: 5, name: "Camouflaged Solar Camera",image: picture5 },
+    { id: 4, name: "Surveillance", image: picture4 },
+    { id: 5, name: "Camouflaged Solar Camera", image: picture5 },
+    { id: 6, name: "Nightvision Camera", image: picture6 },
     
   ];
 
