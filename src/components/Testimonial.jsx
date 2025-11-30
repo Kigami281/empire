@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     name: "Reina Miyuki",
-    title: "Home oWNER",
+    title: "Home Owner",
     quote:
       "There security systems put me at ease since I usually not stay at home often",
     personImg: person2,
