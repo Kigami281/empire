@@ -5,25 +5,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import picture1 from "../assets/store/picture1.jpeg";
-import picture2 from "../assets/store/picture2.jpeg";
-import picture3 from "../assets/store/picture3.jpeg";
-import picture4 from "../assets/store/picture4.jpeg";
-import picture5 from "../assets/store/picture5.jpeg";
-import Mirage from "../assets/store/BlackMirage.jpeg";
-import Onyx from "../assets/store/BlueOnyx.jpeg";
-import Calacatta from "../assets/store/CalacattaGold.jpeg";
-import Oro from "../assets/store/CalacattaOro.jpeg";
-import Fusion from "../assets/store/FusionOnyx.jpeg";
-import Panda from "../assets/store/PandaWhite.jpeg";
+import picture1 from "../assets/store/picture1.jpg";
+import picture2 from "../assets/store/picture2.jpg";
+import picture3 from "../assets/store/picture3.jpg";
+import picture5 from "../assets/store/picture5.jpg";
 
 const Newitems = () => {
   const products = [
     { id: 1, name: "Pen Camera", image: picture1 },
     { id: 2, name: "Andvanced Walkie Talkie", image: picture2 },
     { id: 3, name: "Visual Camera", image: picture3 },
-    { id: 4, name: "Camera Detector", image: picture4 },
-    { id: 5, name: "Black Marquina", image: picture5 },
+    { id: 5, name: "Camouflaged Solar Camera",image: picture5 },
     
   ];
 
