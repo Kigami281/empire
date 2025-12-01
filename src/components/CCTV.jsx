@@ -19,7 +19,7 @@ const CCTV = () => {
             <div className="space-y-5">
             
               <div className="flex items-start gap-4">
-                <div className="w-7 h-7 rounded-full bg-blue-500 flex items-center justify-center mt-1 shadow-md">
+                <div className="w-7 h-7 rounded-full bg-purple-500 flex items-center justify-center mt-1 shadow-md">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -38,7 +38,7 @@ const CCTV = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-7 h-7 rounded-full bg-blue-500 flex items-center justify-center mt-1 shadow-md">
+                <div className="w-7 h-7 rounded-full bg-purple-500 flex items-center justify-center mt-1 shadow-md">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -57,7 +57,7 @@ const CCTV = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-7 h-7 rounded-full bg-blue-500 flex items-center justify-center mt-1 shadow-md">
+                <div className="w-7 h-7 rounded-full bg-purple-500 flex items-center justify-center mt-1 shadow-md">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
